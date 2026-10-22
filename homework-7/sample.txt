@@ -1,0 +1,8 @@
+hello world
+hello Python
+cat
+cut
+cot
+dog
+abbc
+ac
