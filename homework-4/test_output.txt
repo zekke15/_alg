@@ -1,0 +1,45 @@
+test_algorithms (test_iteration.TestIteration.test_algorithms) ... ok
+test_generic (test_iteration.TestIteration.test_generic) ... ok
+test_three_methods (test_iteration.TestIteration.test_three_methods) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.004s
+
+OK
+
+1. 二維固定點迭代
+結果：[0.24138  0.896552]
+次數：23；停止條件：達成
+
+2. 牛頓法：x²-4=0
+結果：2.0
+次數：5；停止條件：達成
+
+3. Gauss-Seidel 解 Ax=b
+結果：[2.25 2.   3.75]
+次數：9；停止條件：達成
+
+4. Power Iteration 最大特徵值
+結果：4.72157
+次數：19；停止條件：達成
+
+5. QR 演算法：特徵值（排序）
+結果：[1.       2.267949 5.732051]
+次數：21；停止條件：達成
+
+6. RK4：到達 t=2 的固定步長積分
+結果：(2.0, 9.388889)
+次數：10；停止條件：達成
+
+7. PageRank
+結果：[0.324561 0.225146 0.225146 0.225146]
+次數：21；停止條件：達成
+
+8. K-Means 分群中心
+結果：[[ 2.22865  1.80498]
+ [-1.98184 -1.79064]]
+次數：2；停止條件：達成
+
+9. EM：兩枚硬幣的正面機率
+結果：(np.float64(0.796789), np.float64(0.519583))
+次數：16；停止條件：達成
